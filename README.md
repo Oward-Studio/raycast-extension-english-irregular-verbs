@@ -2,11 +2,11 @@
 
 Look up English irregular verbs and their three forms — **base**, **past simple** and **past participle** — without leaving your keyboard. Fuzzy search works across every form, so you can type any one of them and instantly find the verb.
 
-![Searching for "bear" with the details panel and translation](metadata/1.bear.png)
+![Verb details with all three forms and a translation](metadata/english-irregular-verbs-1.png)
 
-![Searching for "dive" showing the US spelling variant](metadata/2.dive.png)
+![Searching for "dive" showing the US spelling variant](metadata/english-irregular-verbs-2.png)
 
-![Choosing the translation language in Raycast settings](metadata/config.png)
+![List view with past simple and past participle as colored tags](metadata/english-irregular-verbs-3.png)
 
 ## Features
 
