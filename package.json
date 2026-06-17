@@ -4,7 +4,7 @@
   "title": "English Irregular Verbs",
   "description": "Quickly look up English irregular verbs (base, past simple, past participle) with fuzzy search, UK/US variants and optional translations in 16 languages.",
   "icon": "icon.png",
-  "author": "Oward",
+  "author": "oward",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Oward-Studio/raycast-extension-english-irregular-verbs.git"
