@@ -15,8 +15,8 @@ declare type Preferences = ExtensionPreferences
 declare namespace Preferences {
   /** Preferences accessible in the `index` command */
   export type Index = ExtensionPreferences & {
-  /** Translation Language - Language shown in the translation row. "Auto" follows your macOS system language. */
-  "language": "auto" | "none" | "fr" | "es" | "it" | "de" | "pt" | "nl" | "sv" | "pl" | "ru" | "el" | "tr" | "ar" | "hi" | "zh" | "ja" | "ko"
+  /** Translation Language - Language shown in the translation row. */
+  "language": "none" | "fr" | "es" | "it" | "de" | "pt" | "nl" | "sv" | "pl" | "ru" | "el" | "tr" | "ar" | "hi" | "zh" | "ja" | "ko"
 }
 }
 
