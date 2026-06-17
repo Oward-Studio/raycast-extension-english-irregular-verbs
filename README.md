@@ -2,6 +2,12 @@
 
 Look up English irregular verbs and their three forms — **base**, **past simple** and **past participle** — without leaving your keyboard. Fuzzy search works across every form, so you can type any one of them and instantly find the verb.
 
+![Searching for "bear" with the details panel and translation](metadata/1.bear.webp)
+
+![Searching for "dive" showing the US spelling variant](metadata/2.dive.webp)
+
+![Choosing the translation language in Raycast settings](metadata/config.webp)
+
 ## Features
 
 - **Fuzzy search on every form.** Type `went`, `gone` or `go` — they all surface `go`.
@@ -15,7 +21,7 @@ Look up English irregular verbs and their three forms — **base**, **past simpl
 
 Each verb can show a translation in one of **16 languages**: French, Spanish, Italian, German, Brazilian Portuguese, Dutch, Swedish, Polish, Russian, Greek, Turkish, Arabic, Hindi, Chinese (Simplified), Japanese and Korean. The translation also feeds the fuzzy search (type `aller` to find `go`).
 
-By default the language is **Auto**, which follows your macOS system language (e.g. `fr` → French, `de` → German, `ja` → Japanese; an unsupported language shows no translation).
+By default the language is **Auto**, which follows your operating system's UI language (e.g. `fr` → French, `de` → German, `ja` → Japanese; an unsupported language shows no translation). Detection works on **macOS, Windows and Linux** — it reads the OS language preference (`defaults` on macOS, `CurrentUICulture` on Windows, POSIX `LANG`/`LC_*` variables on Linux), falling back to the runtime locale.
 
 To change it, open **Raycast → Settings → Extensions → English Irregular Verbs → Translation Language** and pick **Auto**, **None**, or any of the 16 languages.
 
