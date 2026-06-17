@@ -2,9 +2,13 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "english-irregular-verbs",
   "title": "English Irregular Verbs",
-  "description": "Quickly look up English irregular verbs (base, past simple, past participle) with fuzzy search, UK/US variants and optional FR/ES/IT translations.",
+  "description": "Quickly look up English irregular verbs (base, past simple, past participle) with fuzzy search, UK/US variants and optional translations in 16 languages.",
   "icon": "icon.png",
   "author": "Oward",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oward-Studio/raycast-extension-english-irregular-verbs.git"
+  },
   "categories": ["Productivity", "Documentation"],
   "license": "MIT",
   "commands": [
