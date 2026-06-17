@@ -1,0 +1,51 @@
+name: Translation issue
+description: Report a wrong or missing translation for a verb
+title: "[Translation]: "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Français (fr)
+        - Español (es)
+        - Italiano (it)
+        - Deutsch (de)
+        - Português (Brasil) (pt)
+        - Nederlands (nl)
+        - Svenska (sv)
+        - Polski (pl)
+        - Русский (ru)
+        - Ελληνικά (el)
+        - Türkçe (tr)
+        - العربية (ar)
+        - हिन्दी (hi)
+        - 中文 (简体) (zh)
+        - 日本語 (ja)
+        - 한국어 (ko)
+    validations:
+      required: true
+  - type: input
+    id: verb
+    attributes:
+      label: English verb (base form)
+      placeholder: "go"
+    validations:
+      required: true
+  - type: input
+    id: suggested
+    attributes:
+      label: Suggested translation
+      description: What the translation row should show for this verb.
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current translation (if any)
+      description: Leave empty if the verb has no translation yet.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (optional)

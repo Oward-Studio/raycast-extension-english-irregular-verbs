@@ -1,0 +1,36 @@
+name: Verb data issue
+description: Suggest a missing verb or report an incorrect form
+title: "[Verb]: "
+labels: ["verb-data"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What's the issue?
+      options:
+        - Missing verb
+        - Incorrect form (preterit / participle)
+    validations:
+      required: true
+  - type: input
+    id: base
+    attributes:
+      label: Base form
+      placeholder: "go"
+    validations:
+      required: true
+  - type: input
+    id: preterit
+    attributes:
+      label: Past simple
+      description: Use " / " to separate variants (e.g. "burnt / burned").
+      placeholder: "went"
+  - type: input
+    id: participle
+    attributes:
+      label: Past participle
+      placeholder: "gone"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / source (optional)
