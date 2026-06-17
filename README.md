@@ -2,11 +2,11 @@
 
 Look up English irregular verbs and their three forms — **base**, **past simple** and **past participle** — without leaving your keyboard. Fuzzy search works across every form, so you can type any one of them and instantly find the verb.
 
-![Searching for "bear" with the details panel and translation](metadata/1.bear.webp)
+![Searching for "bear" with the details panel and translation](metadata/1.bear.png)
 
-![Searching for "dive" showing the US spelling variant](metadata/2.dive.webp)
+![Searching for "dive" showing the US spelling variant](metadata/2.dive.png)
 
-![Choosing the translation language in Raycast settings](metadata/config.webp)
+![Choosing the translation language in Raycast settings](metadata/config.png)
 
 ## Features
 
