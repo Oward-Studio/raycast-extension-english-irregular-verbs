@@ -1,6 +1,9 @@
 # Dependencies
 node_modules/
 
+# Raycast manages dependencies via the monorepo lockfile — don't ship a per-extension one
+package-lock.json
+
 # Raycast build output
 dist/
 .raycast/
